@@ -1,7 +1,5 @@
 import streamlit as st
 st.title("BMI Calculator")
-st.set_page_config(page_title="BMI Calculator")
-
 # Create input controls
 name = st.text_input("Name:")
 gender = st.radio("Gender:", ("Male", "Female", "Other"))
