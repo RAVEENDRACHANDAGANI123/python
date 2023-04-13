@@ -1,6 +1,5 @@
 import streamlit as st
-
-# Set page title
+st.title("BMI Calculator")
 st.set_page_config(page_title="BMI Calculator")
 
 # Create input controls
